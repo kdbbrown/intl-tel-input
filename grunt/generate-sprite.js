@@ -8,8 +8,8 @@ module.exports = function(grunt) {
     const supportedFilenames = supportedCountries.map(country => `${country.iso2}.svg`).sort();
     const done = this.async();
 
-    const TARGET_WIDTH = 16;
-    const TARGET_HEIGHT = 12;
+    const TARGET_WIDTH = 24;
+    const TARGET_HEIGHT = 32;
     const FLAG_MARGIN = 0;
 
     const specialCases = {
